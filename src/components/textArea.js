@@ -2,9 +2,9 @@ function Textarea(props){
 
 
     return (
-        <div >
+        <div  >
 
-            <textarea placeholder={props.name}></textarea>
+            <textarea className="textarea" placeholder={props.name}></textarea>
             
             
 

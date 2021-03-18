@@ -2,13 +2,12 @@ function Typography(props){
 
 
     return (
-        <div >
-
-            <textarea spellCheck="true"></textarea>
-            
-            
+        <div className="typo" style= {{backgroundColor: props.mycolor, fontSize:props.mysize, 
+        color: props.color, fontWeight:props.weight, fontStyle:props.fontstyle}}>{props.text}
 
         </div>
+
+            
     )
 }
 

@@ -1,4 +1,4 @@
-import Home from './assignment3/home'
+import Home from './components/home'
 
 function App() {
   return (
